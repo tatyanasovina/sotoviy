@@ -4,7 +4,7 @@ public class Main {
         int refill = 1190;
 
         int procent;
-        if (refill >= 1000) {
+        if (refill > 1000) {
             procent = 1;
         } else {
             procent = 0;
